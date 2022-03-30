@@ -8,6 +8,6 @@ exports.main = async (event, context) => {
   console.log(event)
   console.log(context)
   return {
-    sum: event.a + event.b
+    sum: event.a + event.b + 1,
   }
 }
